@@ -1,0 +1,39 @@
+/* Seletor Global */
+* {
+    margin: 0; /* Margem */
+    padding: 0; /* Espaçamento */
+}
+
+/* Tag HTML */
+body {
+    font-family: Arial, Verdana, Helvetica , sans-serif;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    color: orangered;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    color: blue;
+    text-align: left;
+}
+
+/* Seletor de ID # */
+#topo {
+    background: #ccc;
+}
+
+#rodape {
+    background: #222;
+}
+
+/* Seletor de CLASS */
+.assuntos {
+    background-color: salmon;
+    margin-top: 10px; /* Margem acima de cada objeto */
+    margin-bottom: 10px; /* Margem abaixo de cada objeto */
+}
