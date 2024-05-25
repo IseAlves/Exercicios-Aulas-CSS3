@@ -1,0 +1,52 @@
+/* Estilos da Aula 04 */
+*{
+    font-family: Arial, Helvetica, sans-serif; 
+    color: #fff; 
+    margin: 0; 
+    padding: 0; /* Espaçamento interno ou espansão */
+    box-sizing: border-box; /* = Mantem o preenchimento da borda dentro do limite da caixa */
+}
+
+#topo {
+    width: 100%;
+    height: 100px;
+    background: rgb(76, 130, 208);
+    background: linear-gradient(93deg, rgba(76,130,208,1) 0%, rgba(85,0,255,1) 100%);
+    /* Cria um gradiente de uma ou várias cores para o background do item desejado */
+}
+
+#corpo {
+    width: 100%;
+    height: 350px;
+    background-color: #444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo {
+    width: 400px;
+    height: 300px;
+    background: #ccc;
+    padding: 1rem; /* Medida REM = medida relativa, equivale 16px */
+    margin: 0.625rem; /* Medida REM é indicado para layout responsivo */
+}
+
+#artigo01 {
+    background: rgb(110, 208, 76);
+    background: linear-gradient(50deg, rgba(110,208,76,1) 0%, rgba(232,255,0,1) 100%);
+    /* background-position: top = Aparecerá a parte de cima da imagem
+    background-position: bottom = Aparecerá a parte debaixo da imagem
+    O mesmo vale para background-position: right e background-position: left
+    Outras possibilidades: background-position: bottom right
+    background-position: top left
+    E assim por diante */
+}
+
+#rodape  {
+    width: 100%;
+    height: 150px;
+    background: rgb(76, 130,208);
+    background: radial-gradient(circle, rgba(76,130,208,1) 0%, rgba(85,0,255,1) 100%);
+    /* background-size: cover = A imagem adapta-se ao tamanho previamente estabelecido */
+}
