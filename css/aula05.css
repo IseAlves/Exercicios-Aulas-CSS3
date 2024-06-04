@@ -1,0 +1,54 @@
+/* Estilo   da Aula 05 */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+.topo {
+    background: #222;
+}
+
+/* NAV UL LI A */
+/* UL com ID links */
+#links {
+    width: 100%;
+    display: flex; /* Mantem a lista UL LI na horizontal */
+    justify-content: flex-start;
+}
+
+/* UL LI */
+#links li {
+    list-style: none; /* Retira os pontos de marcação de lista */
+    background: #222;
+    padding: 1rem 0;
+    /* border: 1px solid #000; */
+}
+
+#links li a {
+    padding: 1rem; /* Aumenta a área 'clicável' do link */
+    text-decoration: none;
+    color: #ccc;
+    /* border: 1px solid red; */
+}
+
+/* Todos os links */
+#links a {
+    font-weight: bold; /* Define a expessuma da fonte. Se for acima de 600 a fonte se torna negrito */
+    cursor: pointer;
+}
+
+/* Quando passa a seta do mouse por  cima */
+#links a:hover { /* ':' é utilizado para acionar pseudo classe */
+    background: #444;
+    color: white;
+}
+
+/*
+a link geral
+a:link
+a:active - Último Link clicado
+a:visited - Link que já foi clicado, visitado
+*/
